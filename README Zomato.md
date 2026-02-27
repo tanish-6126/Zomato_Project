@@ -13,8 +13,11 @@ This project demonstrates the implementation of a Zomato-style Food Delivery Man
 ## Objectives
 
 1.Set up the Food Delivery Management System database.
+
 2.Create and manage tables for customers, restaurants, orders, riders, and deliveries.
+
 3.Perform CRUD (Create, Read, Update, Delete) operations.
+
 4.Execute SQL queries to retrieve and analyze operational data.
 
 ## Project Structure
