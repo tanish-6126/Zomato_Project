@@ -23,7 +23,7 @@ This project demonstrates the implementation of a Zomato-style Food Delivery Man
 ## Project Structure
 
 ### 1. Database Setup
-![ERD](https://github.com/najirh/Library-System-Management---P2/blob/main/library_erd.png)
+![ERD](https://github.com/tanish-6126/Zomato_Project/blob/main/EER_Zomato.png)
 
 - **Database Creation**: Created a database named `Zomato_P3`.
 - **Table Creation**:
