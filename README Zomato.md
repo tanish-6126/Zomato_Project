@@ -27,9 +27,9 @@ This project demonstrates the implementation of a Zomato-style Food Delivery Man
 
 - **Database Creation**: Created a database named `Zomato_P3`.
 - **Table Creation**:
-- 1.Created tables for customers, restaurants, orders, riders, and deliveries.
-- 
-- 2.Defined relationships using primary and foreign keys to ensure data consistency.
+  1.Created tables for customers, restaurants, orders, riders, and deliveries.
+  
+  2.Defined relationships using primary and foreign keys to ensure data consistency.
 
 ```sql
 CREATE DATABASE Zomato_P3;
