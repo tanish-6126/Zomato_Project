@@ -1,32 +1,33 @@
-# Library Management System using SQL Project --P2
+# Zomato Datebase Management System using SQL Project --P2
 
 ## Project Overview
 
-**Project Title**: Library Management System  
+**Project Title**: Zomato Datebase Management System
 **Level**: Intermediate  
-**Database**: `library_db`
+**Database**: `Zomato_P3`
 
-This project demonstrates the implementation of a Library Management System using SQL. It includes creating and managing tables, performing CRUD operations, and executing advanced SQL queries. The goal is to showcase skills in database design, manipulation, and querying.
+This project demonstrates the implementation of a Zomato-style Food Delivery Management System using SQL. It focuses on designing and managing a relational database, performing CRUD operations, and executing SQL queries to analyze food ordering and delivery data. The project highlights skills in database design, data manipulation, and querying.
 
 ![Library_project](https://github.com/najirh/Library-System-Management---P2/blob/main/library.jpg)
 
 ## Objectives
 
-1. **Set up the Library Management System Database**: Create and populate the database with tables for branches, employees, members, books, issued status, and return status.
-2. **CRUD Operations**: Perform Create, Read, Update, and Delete operations on the data.
-3. **CTAS (Create Table As Select)**: Utilize CTAS to create new tables based on query results.
-4. **Advanced SQL Queries**: Develop complex queries to analyze and retrieve specific data.
+1.Set up the Food Delivery Management System database.
+2.Create and manage tables for customers, restaurants, orders, riders, and deliveries.
+3.Perform CRUD (Create, Read, Update, Delete) operations.
+4.Execute SQL queries to retrieve and analyze operational data.
 
 ## Project Structure
 
 ### 1. Database Setup
 ![ERD](https://github.com/najirh/Library-System-Management---P2/blob/main/library_erd.png)
 
-- **Database Creation**: Created a database named `library_db`.
-- **Table Creation**: Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
+- **Database Creation**: Created a database named `Zomato_P3`.
+- **Table Creation**: 1.Created tables for customers, restaurants, orders, riders, and deliveries.
+2.Defined relationships using primary and foreign keys to ensure data consistency.
 
 ```sql
-CREATE DATABASE library_db;
+CREATE DATABASE Zomato_P3;
 
 DROP TABLE IF EXISTS branch;
 CREATE TABLE branch
@@ -111,10 +112,10 @@ CREATE TABLE return_status
 
 ### 2. CRUD Operations
 
-- **Create**: Inserted sample records into the `books` table.
-- **Read**: Retrieved and displayed data from various tables.
-- **Update**: Updated records in the `employees` table.
-- **Delete**: Removed records from the `members` table as needed.
+- **Create**: Inserted sample records into the database tables.
+- **Read**:Retrieved data to analyze customer orders, restaurant activity, and delivery status.
+- **Update**: Updated order and delivery-related information as required.
+- **Delete**: Deleted records such as cancelled orders or inactive entries.
 
 **Task 1. Create a New Book Record**
 -- "978-1-60129-456-2', 'To Kill a Mockingbird', 'Classic', 6.00, 'yes', 'Harper Lee', 'J.B. Lippincott & Co.')"
@@ -159,8 +160,6 @@ FROM issued_status
 GROUP BY 1
 HAVING COUNT(*) > 1
 ```
-
-### 3. CTAS (Create Table As Select)
 
 - **Task 6: Create Summary Tables**: Used CTAS to generate new tables based on query results - each book and total book_issued_cnt**
 
@@ -491,32 +490,14 @@ Description: Write a CTAS query to create a new table that lists each member and
 
 ## Reports
 
-- **Database Schema**: Detailed table structures and relationships.
-- **Data Analysis**: Insights into book categories, employee salaries, member registration trends, and issued books.
-- **Summary Reports**: Aggregated data on high-demand books and employee performance.
+- **Database Schema**: Designed the database schema based on the ER diagram.
+- **Data Analysis**: 1.Insights into customer ordering behavior.
+- 2.Restaurant performance analysis.
+- 3.Delivery status and operational efficiency
 
 ## Conclusion
 
-This project demonstrates the application of SQL skills in creating and managing a library management system. It includes database setup, data manipulation, and advanced querying, providing a solid foundation for data management and analysis.
+This project demonstrates the practical use of SQL to build and manage a food delivery management database. It covers database creation, table relationships, CRUD operations, and analytical queries. The project reflects how platforms like Zomato handle structured data for daily operations and analysis.
 
-## How to Use
+## Author - Tanish
 
-1. **Clone the Repository**: Clone this repository to your local machine.
-   ```sh
-   git clone https://github.com/najirh/Library-System-Management---P2.git
-   ```
-
-2. **Set Up the Database**: Execute the SQL scripts in the `database_setup.sql` file to create and populate the database.
-3. **Run the Queries**: Use the SQL queries in the `analysis_queries.sql` file to perform the analysis.
-4. **Explore and Modify**: Customize the queries as needed to explore different aspects of the data or answer additional questions.
-
-## Author - Zero Analyst
-
-This project showcases SQL skills essential for database management and analysis. For more content on SQL and data analysis, connect with me through the following channels:
-
-- **YouTube**: [Subscribe to my channel for tutorials and insights](https://www.youtube.com/@zero_analyst)
-- **Instagram**: [Follow me for daily tips and updates](https://www.instagram.com/zero_analyst/)
-- **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/najirr)
-- **Discord**: [Join our community for learning and collaboration](https://discord.gg/36h5f2Z5PK)
-
-Thank you for your interest in this project!
