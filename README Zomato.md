@@ -128,7 +128,7 @@ o.order_item) a
 where top <= 5;
 ```
 **Task 2:Popular Time Slots
--- Question: Identify the time slots during which the most orders are placed. based on 2-hour intervals.**
+-- Identify the time slots during which the most orders are placed. based on 2-hour intervals.**
 
 ```sql
 SELECT
@@ -153,7 +153,7 @@ ORDER BY order_count DESC;
 ```
 
 **Task 3: Order Value Analysis
--- Question: Find the average order value per customer who has placed more than 250 orders.
+--  Find the average order value per customer who has placed more than 250 orders.
 -- Return customer_name, and aov(average order value)**
 
 ```sql
@@ -167,7 +167,7 @@ having orders > 250;
 ```
 
 **Task 4:High-Value Customers
--- Question: List the customers who have spent more than 100K in total on food orders.
+--  List the customers who have spent more than 100K in total on food orders.
 -- return customer_name, and customer_id!**
 
 ```sql
@@ -182,7 +182,7 @@ order by total;
 ```
 
 **Task 5: Orders Without Delivery
--- Question: Write a query to find orders that were placed but not delivered.
+-- Write a query to find orders that were placed but not delivered.
 -- Return each restuarant name, city and number of not delivered orders..**
 
 ```sql
@@ -381,7 +381,7 @@ where d.delivery_status ='Delivered'
 order by rider_id)a;
 ```
 
-**Task 16: Order Frequency by Day:
+**Task 15: Order Frequency by Day:
 -- Analyze order frequency per day of the week and identify the peak day for each nestaurant.**
 
 ```sql
