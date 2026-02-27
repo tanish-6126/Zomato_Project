@@ -12,13 +12,10 @@ This project demonstrates the implementation of a Zomato-style Food Delivery Man
 
 ## Objectives
 
-1.Set up the Food Delivery Management System database.
-
-2.Create and manage tables for customers, restaurants, orders, riders, and deliveries.
-
-3.Perform CRUD (Create, Read, Update, Delete) operations.
-
-4.Execute SQL queries to retrieve and analyze operational data.
+**1.Set up the Food Delivery Management System database.**
+**2.Create and manage tables for customers, restaurants, orders, riders, and deliveries.**
+**3.Perform CRUD (Create, Read, Update, Delete) operations.**
+**4.Execute SQL queries to retrieve and analyze operational data.**
 
 ## Project Structure
 
@@ -27,6 +24,7 @@ This project demonstrates the implementation of a Zomato-style Food Delivery Man
 
 - **Database Creation**: Created a database named `Zomato_P3`.
 - **Table Creation**: 1.Created tables for customers, restaurants, orders, riders, and deliveries.
+- 
 2.Defined relationships using primary and foreign keys to ensure data consistency.
 
 ```sql
@@ -495,7 +493,9 @@ Description: Write a CTAS query to create a new table that lists each member and
 
 - **Database Schema**: Designed the database schema based on the ER diagram.
 - **Data Analysis**: 1.Insights into customer ordering behavior.
+- 
 - 2.Restaurant performance analysis.
+- 
 - 3.Delivery status and operational efficiency
 
 ## Conclusion
