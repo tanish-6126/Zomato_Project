@@ -497,11 +497,11 @@ Description: Write a CTAS query to create a new table that lists each member and
 
 - **Database Schema**: Designed the database schema based on the ER diagram.
 - **Data Analysis**:
-- 1.Insights into customer ordering behavior.
-- 
-- 2.Restaurant performance analysis.
-- 
-- 3.Delivery status and operational efficiency
+  1.Insights into customer ordering behavior.
+ 
+  2.Restaurant performance analysis.
+ 
+  3.Delivery status and operational efficiency
 
 ## Conclusion
 
