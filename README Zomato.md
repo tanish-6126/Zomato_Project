@@ -69,9 +69,6 @@ rider_name VARCHAR(55),
 sign_up DATE
 );
 
-
-
-
 CREATE TABLE deliveries
 (
 delivery_id INT PRIMARY KEY,
