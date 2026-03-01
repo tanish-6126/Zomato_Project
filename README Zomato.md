@@ -392,7 +392,7 @@ where peak_day = 1;
 ## Reports
 
 - **Database Schema**: Designed the database schema based on the ER diagram.
-- **Data Analysis**:
+- **Data Analysis**:<br>
   1.Insights into customer ordering behavior.
  
   2.Restaurant performance analysis.
