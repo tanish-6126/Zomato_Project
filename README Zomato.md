@@ -309,18 +309,9 @@ order by restaurant_id,
 month)t)a;
 ```
 
-Task 12: **Retrieve the List of Books Not Yet Returned**
-```sql
-SELECT * FROM issued_status as ist
-LEFT JOIN
-return_status as rs
-ON rs.issued_id = ist.issued_id
-WHERE rs.return_id IS NULL;
-```
-
 ## Advanced SQL Operations
 
-**Task 13: Customer Segmentation: Segment customers into 'Gold' or 'Silver' groups based on their total spending
+**Task 12: Customer Segmentation: Segment customers into 'Gold' or 'Silver' groups based on their total spending
 -- compared to the average order value per customer. If a customer's total spending exceeds the Average value,
 -- label them as 'Gold'; otherwise, label them as 'Silver'.Write an SQL query to determine each segment's
 -- total number of orders and total revenue**
